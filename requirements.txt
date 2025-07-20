@@ -6,4 +6,4 @@ numpy
 statsmodels
 matplotlib
 ta
-sklearn.metrics
+scikit-learn
