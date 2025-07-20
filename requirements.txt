@@ -7,3 +7,5 @@ statsmodels
 matplotlib
 ta
 scikit-learn
+plotly
+
