@@ -8,7 +8,7 @@ StockAnalysisapp is a powerful tool designed to help users analyze, visualize, a
 - Technical indicator calculations
 - Portfolio management tools
 - User authentication and personalized dashboards
-You can try the deployed web here: **[Chatbot Live App](https://stockanalysiswebapp.streamlit.app/)**
+You can try the deployed web here: **[Live App](https://stockanalysiswebapp.streamlit.app/)**
 ## Getting Started
 
 ### Prerequisites
