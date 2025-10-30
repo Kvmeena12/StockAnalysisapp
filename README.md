@@ -9,7 +9,7 @@ StockAnalysisapp is a powerful tool designed to help users analyze, visualize, a
 - Portfolio management tools
 - User authentication and personalized dashboards
 You can try the deployed web here: **[Live App](https://stockanalysiswebapp.streamlit.app/)**
-## Getting Started
+## Getting Started **[Live app](http://localhost:8501)
 
 ### Prerequisites
 
