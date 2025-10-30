@@ -1,11 +1,9 @@
-yfinance==0.2.66
 matplotlib==3.10.7
-streamlit==1.51.0
-pandas==2.3.3
 numpy==2.3.4
+pandas==2.3.3
+plotly==6.2.0
+scikit_learn==1.7.2
 statsmodels==0.14.5
+streamlit==1.46.1
 ta==0.11.0
-scikit-learn==1.7.2
-plotly==6.3.1
-textblob==0.19.0
-vaderSentiment==3.3.2
+yfinance==0.2.65
