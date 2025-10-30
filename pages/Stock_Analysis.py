@@ -106,9 +106,9 @@ if not chart_data.empty:
         name='Candlestick'
     ))
     fig.update_layout(
-        title=f"{ticker} - Last 1 Year Price ({currency})",
+        title=f"{ticker} - Last 1 Year Price",
         xaxis_title="Date",
-        yaxis_title=f"Price ({currency})",
+        yaxis_title="Price",
         template='plotly_white', showlegend=False)
     st.plotly_chart(fig, use_container_width=True)
 else:
