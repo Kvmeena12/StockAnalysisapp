@@ -36,7 +36,10 @@ window = sidebar.slider("Rolling Window", 4, 21, 7)
 test_size = sidebar.slider("Validation Size (days)", 20, 60, 30)
 forecast_steps = sidebar.slider("Forecast (days)", 15, 60, 30)
 
-with sidebar.beta_expander("ARIMA/SARIMA Parameters", expanded=False):
+with st.expander("ARIMA/SARIMA Parameters"):
+    mode = st.radio("Modeling Mode", ["Manual", "Grid Search"])
+    model_choice = st.selectbox("Select Model", ["ARIMA", "SARIMA"])
+    # etc.
     p = sidebar.number_input("AR Order (p)", 0, 5, 1)
     d = sidebar.number_input("Differencing (d)", 0, 2, 1)
     q = sidebar.number_input("MA Order (q)", 0, 5, 1)
